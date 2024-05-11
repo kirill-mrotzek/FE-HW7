@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.container{
+    border: 0 white;
+    position: relative;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.block1{
+    background-color:rgba(rgb(255, 255, 255), rgb(254, 255, 254), rgb(253, 253, 253), 0);
+    border: 1px solid #cf222e;
+    top: 20px;
+    left: 50px;
+}
+
+.block2{
+    background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(249, 249, 249), 0);
+    border: 1px solid #179b9b;
+    top: 80px;
+    left: 110px;
+}
+
+.block3{
+    background-color: rgba(rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), 0);
+    border: 1px solid #30a147;
+    top: 140px;
+    left: 170px;
+}

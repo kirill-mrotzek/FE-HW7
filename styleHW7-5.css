@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 10px;
+}
+
+.container{
+    border: 0 white;
+    position: relative;
+}
+
+.container div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.block1{
+    background-color:#cf222e;
+    border: 1px solid #cf222e;
+    z-index: 3;
+    top: 20px;
+    left: 50px;
+}
+
+.block2{
+    background-color: #179b9b;
+    border: 1px solid #179b9b;
+    top: 80px;
+    left: 110px;
+}
+
+.block3{
+    background-color: #30a147;
+    border: 1px solid #30a147;
+    z-index: 3;
+    top: 140px;
+    left: 170px;
+}
